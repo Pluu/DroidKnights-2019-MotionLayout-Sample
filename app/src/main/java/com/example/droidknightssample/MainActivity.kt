@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
 
     private val dataset: Array<DemosAdapter.Demo> = arrayOf(
         DemosAdapter.Demo(
-            "CollapsibleToolbar",
-            "CollapsibleToolbar Sample",
-            R.layout.motion_01_basic
+            "01. Fail CollapsibleToolbar",
+            "Sample",
+            R.layout.motion_01_fail_collapsible
         )
     )
 

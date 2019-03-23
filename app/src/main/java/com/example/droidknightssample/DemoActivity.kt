@@ -3,7 +3,6 @@ package com.example.droidknightssample
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.motion.widget.MotionLayout
 
 class DemoActivity : AppCompatActivity() {
 
@@ -11,24 +10,8 @@ class DemoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val layout = intent.getIntExtra("layout_file_id", R.layout.motion_01_basic)
+        val layout = intent.getIntExtra("layout_file_id", R.layout.motion_01_header_fail_collapsible_toolbar)
         setContentView(layout)
         container = findViewById(R.id.motionLayout)
-
-        val debugMode = if (intent.getBooleanExtra("showPaths", false)) {
-            MotionLayout.DEBUG_SHOW_PATH
-        } else {
-            MotionLayout.DEBUG_SHOW_NONE
-        }
-        (container as? MotionLayout)?.setDebugMode(debugMode)
-    }
-
-    fun changeState(v: View?) {
-        val motionLayout = container as? MotionLayout ?: return
-        if (motionLayout.progress > 0.5f) {
-            motionLayout.transitionToStart()
-        } else {
-            motionLayout.transitionToEnd()
-        }
     }
 }

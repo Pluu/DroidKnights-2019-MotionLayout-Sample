@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0044FF"
+    android:fitsSystemWindows="true"
+    android:minHeight="@dimen/toolbar_size"
+    app:layoutDescription="@xml/motion_collapsible"
+    app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
+    app:motionDebug="SHOW_PATH"
+    tools:showIn="@layout/motion_01_fail_collapsible">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/toolbar_button_size"
+        android:layout_height="@dimen/toolbar_button_size"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_arrow_back_white_24dp" />
+
+</com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar>
