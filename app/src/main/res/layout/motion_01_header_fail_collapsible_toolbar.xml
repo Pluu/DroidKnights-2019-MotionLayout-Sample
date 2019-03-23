@@ -8,7 +8,7 @@
     android:background="#0044FF"
     android:fitsSystemWindows="true"
     android:minHeight="@dimen/toolbar_size"
-    app:layoutDescription="@xml/motion_collapsible"
+    app:layoutDescription="@xml/motion_01_collapsible"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
     app:motionDebug="SHOW_PATH"
     tools:showIn="@layout/motion_01_fail_collapsible">
