@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
             "02. CollapsibleToolbar",
             "Complex MotionLayout Sample",
             R.layout.motion_02_collapsible
+        ),
+        DemosAdapter.Demo(
+            "03. Fail Text Szie",
+            "Sample",
+            R.layout.motion_03_fail_textsize
         )
     )
 
