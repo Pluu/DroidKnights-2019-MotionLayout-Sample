@@ -17,12 +17,22 @@ class MainActivity : AppCompatActivity() {
         DemosAdapter.Demo(
             "02. CollapsibleToolbar",
             "Complex MotionLayout Sample",
-            R.layout.motion_02_collapsible
+            R.layout.motion_01_success_collapsible
         ),
         DemosAdapter.Demo(
-            "03. Fail Text Szie",
-            "Sample",
-            R.layout.motion_03_fail_textsize
+            "03. Fail Text Size",
+            "단순 TextSize 변경",
+            R.layout.motion_02_fail_textsize
+        ),
+        DemosAdapter.Demo(
+            "04. Fail Text Size2",
+            "AppbarLayout에서 TextSize 변경 ",
+            R.layout.motion_02_fail2_textsize
+        ),
+        DemosAdapter.Demo(
+            "04-2. Scale Text Size2",
+            "Scale로 대응한 AppbarLayout에서 TextSize 변경 ",
+            R.layout.motion_02_success_textsize
         )
     )
 

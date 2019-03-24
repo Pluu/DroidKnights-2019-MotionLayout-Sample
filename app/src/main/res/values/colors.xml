@@ -5,4 +5,5 @@
     <color name="colorAccent">#F9AAA3</color>
 
     <color name="contentBackground">@android:color/white</color>
+    <color name="header_color">#0f1723</color>
 </resources>

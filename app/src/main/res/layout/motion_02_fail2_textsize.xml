@@ -13,7 +13,7 @@
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <include layout="@layout/motion_01_fail_header_collapsible_toolbar" />
+        <include layout="@layout/motion_02_fail2_header_textsize" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

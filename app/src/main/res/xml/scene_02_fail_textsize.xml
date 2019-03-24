@@ -6,11 +6,6 @@
         motion:constraintSetStart="@+id/start"
         motion:duration="1000">
         <OnClick motion:target="@id/btnRun" />
-
-        <OnSwipe
-            motion:dragDirection="dragRight"
-            motion:touchAnchorId="@id/title"
-            motion:touchAnchorSide="right" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">

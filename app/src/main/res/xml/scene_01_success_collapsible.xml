@@ -4,8 +4,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@+id/start"
-        motion:duration="500"
-        motion:interpolator="linear">
+        motion:duration="1000">
         <OnSwipe
             motion:dragDirection="dragUp"
             motion:touchAnchorId="@+id/motionLayout"

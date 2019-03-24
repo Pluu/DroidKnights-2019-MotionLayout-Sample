@@ -5,8 +5,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@+id/start"
-        motion:duration="1000"
-        motion:interpolator="linear" />
+        motion:duration="1000" />
 
     <ConstraintSet android:id="@+id/start">
         <Constraint android:id="@+id/btnBack">

@@ -10,7 +10,8 @@ class DemoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val layout = intent.getIntExtra("layout_file_id", R.layout.motion_01_header_fail_collapsible_toolbar)
+        val layout =
+            intent.getIntExtra("layout_file_id", R.layout.motion_01_fail_header_collapsible_toolbar)
         setContentView(layout)
         container = findViewById(R.id.motionLayout)
     }
