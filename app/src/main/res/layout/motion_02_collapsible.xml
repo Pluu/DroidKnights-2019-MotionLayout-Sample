@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/contentBackground"
     android:fitsSystemWindows="true"
-    app:layoutDescription="@xml/motion_02_collapsible"
+    app:layoutDescription="@xml/scene_02_collapsible"
     app:motionDebug="SHOW_PATH">
 
     <include layout="@layout/motion_02_header_collapsible_toolbar" />
