@@ -30,9 +30,14 @@ class MainActivity : AppCompatActivity() {
             R.layout.motion_02_fail2_textsize
         ),
         DemosAdapter.Demo(
-            "04-2. Scale Text Size2",
+            "05. Scale Text Size2",
             "Scale로 대응한 AppbarLayout에서 TextSize 변경 ",
             R.layout.motion_02_success_textsize
+        ),
+        DemosAdapter.Demo(
+            "06. Text Change",
+            " ",
+            R.layout.motion_03_fail_change_text
         )
     )
 

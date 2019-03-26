@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header_color"
+    android:fitsSystemWindows="true"
+    android:minHeight="90dp"
+    app:layoutDescription="@xml/scene_03_fail_change_text"
+    app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
+    app:motionDebug="SHOW_PATH"
+    tools:showIn="@layout/motion_03_fail_change_text">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/toolbar_button_size"
+        android:layout_height="@dimen/toolbar_button_size"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_arrow_back_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="Title"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:transformPivotX="0sp"
+        android:transformPivotY="34sp" />
+
+    <TextView
+        android:id="@+id/tvText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Text1"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text2"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/guideBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar>
