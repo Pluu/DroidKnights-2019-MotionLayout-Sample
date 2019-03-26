@@ -1,16 +1,15 @@
 package com.example.droidknightssample
 
 import android.os.Bundle
-import android.transition.TransitionManager
 import android.view.View
-import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.motion.widget.MotionLayout
 import kotlin.random.Random
 
 class DemoActivity : AppCompatActivity() {
 
-    private lateinit var container: ViewGroup
+    private lateinit var container: MotionLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,22 +18,40 @@ class DemoActivity : AppCompatActivity() {
         setContentView(layout)
         container = findViewById(R.id.motionLayout)
 
-        if (layout == R.layout.motion_03_fail_change_text) {
-            actionChangeText()
+        when (layout) {
+            R.layout.motion_03_fail_change_text -> {
+                actionMotion03ChangeText()
+            }
+            R.layout.motion_03_success_change_text -> {
+                actionMotion04ChangeText()
+            }
         }
     }
 
-    private fun actionChangeText() {
+    private fun actionMotion03ChangeText() {
         val textView = findViewById<TextView>(R.id.tvText1)
         val btnChange = findViewById<View>(R.id.btnChange)
 
         btnChange.setOnClickListener {
-            TransitionManager.beginDelayedTransition(container)
             textView.text = buildString {
                 for (value in 0..Random.nextInt(10)) {
                     append(value)
                 }
             }
+        }
+    }
+
+    private fun actionMotion04ChangeText() {
+        val textView = findViewById<TextView>(R.id.tvText1)
+        val btnChange = findViewById<View>(R.id.btnChange)
+
+        btnChange.setOnClickListener {
+            textView.text = buildString {
+                for (value in 0..Random.nextInt(10)) {
+                    append(value)
+                }
+            }
+            container.setTransition(R.id.start, R.id.end)
         }
     }
 }

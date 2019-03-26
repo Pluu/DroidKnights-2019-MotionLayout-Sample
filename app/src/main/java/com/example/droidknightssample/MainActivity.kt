@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private val dataset: Array<DemosAdapter.Demo> = arrayOf(
         DemosAdapter.Demo(
-            "01. Fail CollapsibleToolbar",
+            "01. [Fail] CollapsibleToolbar",
             "Sample",
             R.layout.motion_01_fail_collapsible
         ),
@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
             R.layout.motion_01_success_collapsible
         ),
         DemosAdapter.Demo(
-            "03. Fail Text Size",
+            "03. [Fail] Text Size",
             "단순 TextSize 변경",
             R.layout.motion_02_fail_textsize
         ),
         DemosAdapter.Demo(
-            "04. Fail Text Size2",
+            "04. [Fail] Text Size2",
             "AppbarLayout에서 TextSize 변경 ",
             R.layout.motion_02_fail2_textsize
         ),
@@ -35,9 +35,14 @@ class MainActivity : AppCompatActivity() {
             R.layout.motion_02_success_textsize
         ),
         DemosAdapter.Demo(
-            "06. Text Change",
-            " ",
+            "06. [Fail] Text Change",
+            "AppbarLayout Header 영역에서 Text Change",
             R.layout.motion_03_fail_change_text
+        ),
+        DemosAdapter.Demo(
+            "07. Text Change",
+            "AppbaLayout Header 영역에서 Text Change",
+            R.layout.motion_03_success_change_text
         )
     )
 
