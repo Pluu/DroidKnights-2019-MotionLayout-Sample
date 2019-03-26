@@ -10,7 +10,6 @@
     android:minHeight="90dp"
     app:layoutDescription="@xml/scene_03_success_change_text"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
-    app:motionDebug="SHOW_PATH"
     tools:showIn="@layout/motion_03_fail_change_text">
 
     <ImageButton
