@@ -5,6 +5,7 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/contentBackground"
     android:fitsSystemWindows="true"
     android:minHeight="@dimen/toolbar_size"
     app:layoutDescription="@xml/scene_00_fail_collapsible"
