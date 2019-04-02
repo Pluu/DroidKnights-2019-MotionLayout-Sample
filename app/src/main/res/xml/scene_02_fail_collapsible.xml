@@ -20,8 +20,8 @@
     <ConstraintSet android:id="@+id/end">
         <Constraint android:id="@+id/btnBack">
             <Layout
+                motion:layout_constraintBottom_toBottomOf="parent"
                 motion:layout_constraintStart_toStartOf="parent"
-                motion:layout_constraintTop_toTopOf="parent"
                 motion:layout_height="@dimen/toolbar_button_size"
                 motion:layout_width="@dimen/toolbar_button_size" />
         </Constraint>

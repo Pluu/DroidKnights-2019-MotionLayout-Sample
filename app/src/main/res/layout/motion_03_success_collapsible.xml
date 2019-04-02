@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:background="@color/contentBackground"
     android:fitsSystemWindows="true"
-    app:layoutDescription="@xml/scene_01_success_collapsible"
+    app:layoutDescription="@xml/scene_03_success_collapsible"
     app:motionDebug="SHOW_PATH">
 
-    <include layout="@layout/motion_01_success_header_collapsible_toolbar" />
+    <include layout="@layout/motion_03_success_header_collapsible_toolbar" />
 
     <include layout="@layout/content_scrolling" />
 

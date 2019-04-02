@@ -19,10 +19,10 @@ class DemoActivity : AppCompatActivity() {
         container = findViewById(R.id.motionLayout)
 
         when (layout) {
-            R.layout.motion_03_fail_change_text -> {
+            R.layout.motion_07_fail_change_text -> {
                 actionMotion03ChangeText()
             }
-            R.layout.motion_03_success_change_text -> {
+            R.layout.motion_08_success_change_text -> {
                 actionMotion04ChangeText()
             }
         }

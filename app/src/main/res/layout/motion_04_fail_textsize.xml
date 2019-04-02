@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/contentBackground"
-    app:layoutDescription="@xml/scene_02_fail_textsize"
+    app:layoutDescription="@xml/scene_04_fail_textsize"
     app:motionDebug="SHOW_PATH"
     tools:progress="0.0f">
 
