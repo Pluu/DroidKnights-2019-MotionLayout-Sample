@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/header_color"
-    app:layoutDescription="@xml/scene_03_success_collapsible"
+    app:layoutDescription="@xml/scene_01_success_collapsible"
     app:motionDebug="SHOW_PATH">
 
     <ImageButton

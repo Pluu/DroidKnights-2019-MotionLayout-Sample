@@ -8,18 +8,10 @@
     android:background="@color/header_color"
     android:fitsSystemWindows="true"
     android:minHeight="@dimen/toolbar_size"
-    app:layoutDescription="@xml/scene_05_fail_textsize"
+    app:layoutDescription="@xml/scene_01_fail_2_collapsible"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
     app:motionDebug="SHOW_PATH"
-    tools:progress="1.0f"
-    tools:showIn="@layout/motion_05_fail_textsize">
-
-    <View
-        android:id="@+id/guideBottom"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/toolbar_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    tools:showIn="@layout/motion_01_fail_2_collapsible">
 
     <ImageButton
         android:id="@+id/btnBack"
@@ -27,15 +19,5 @@
         android:layout_height="@dimen/toolbar_button_size"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:src="@drawable/ic_arrow_back_white_24dp" />
-
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:includeFontPadding="false"
-        android:text="Title"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
 
 </com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar>

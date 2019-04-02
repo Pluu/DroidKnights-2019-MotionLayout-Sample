@@ -8,9 +8,9 @@
     android:background="@color/header_color"
     android:fitsSystemWindows="true"
     android:minHeight="90dp"
-    app:layoutDescription="@xml/scene_08_success_change_text"
+    app:layoutDescription="@xml/scene_04_fail_change_text"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
-    tools:showIn="@layout/motion_08_success_change_text">
+    tools:showIn="@layout/motion_04_fail_change_text">
 
     <ImageButton
         android:id="@+id/btnBack"

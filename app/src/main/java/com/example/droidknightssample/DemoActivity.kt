@@ -14,15 +14,15 @@ class DemoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val layout =
-            intent.getIntExtra("layout_file_id", R.layout.motion_01_fail_header_collapsible_toolbar)
+            intent.getIntExtra("layout_file_id", R.layout.motion_01_fail_1_header_collapsible_toolbar)
         setContentView(layout)
         container = findViewById(R.id.motionLayout)
 
         when (layout) {
-            R.layout.motion_07_fail_change_text -> {
+            R.layout.motion_04_fail_change_text -> {
                 actionMotion03ChangeText()
             }
-            R.layout.motion_08_success_change_text -> {
+            R.layout.motion_04_success_change_text -> {
                 actionMotion04ChangeText()
             }
         }

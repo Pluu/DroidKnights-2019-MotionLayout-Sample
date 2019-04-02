@@ -5,19 +5,18 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/contentBackground"
     android:fitsSystemWindows="true"
     android:minHeight="@dimen/toolbar_size"
-    app:layoutDescription="@xml/scene_01_fail_collapsible"
+    app:layoutDescription="@xml/scene_01_fail_1_collapsible"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
     app:motionDebug="SHOW_PATH"
-    tools:showIn="@layout/motion_01_fail_collapsible">
+    tools:showIn="@layout/motion_01_fail_1_collapsible">
 
     <ImageButton
         android:id="@+id/btnBack"
         android:layout_width="@dimen/toolbar_button_size"
         android:layout_height="@dimen/toolbar_button_size"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:src="@drawable/ic_arrow_back_black_24dp" />
+        android:src="@drawable/ic_arrow_back_white_24dp" />
 
 </com.google.androidstudio.motionlayoutexample.utils.CollapsibleToolbar>

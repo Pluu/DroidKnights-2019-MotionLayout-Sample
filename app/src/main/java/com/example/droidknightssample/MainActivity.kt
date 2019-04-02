@@ -12,42 +12,47 @@ class MainActivity : AppCompatActivity() {
         DemosAdapter.Demo(
             "01. [Fail] Anchor Issue",
             "Sample",
-            R.layout.motion_01_fail_collapsible
+            R.layout.motion_01_fail_1_collapsible
         ),
         DemosAdapter.Demo(
             "02. [Fail] CollapsibleToolbar",
             "Sample",
-            R.layout.motion_02_fail_collapsible
+            R.layout.motion_01_fail_2_collapsible
         ),
         DemosAdapter.Demo(
             "03. CollapsibleToolbar",
             "Complex MotionLayout Sample",
-            R.layout.motion_03_success_collapsible
+            R.layout.motion_01_success_collapsible
         ),
         DemosAdapter.Demo(
             "04. [Fail] Text Size",
             "단순 TextSize 변경",
-            R.layout.motion_04_fail_textsize
+            R.layout.motion_02_fail_textsize
         ),
         DemosAdapter.Demo(
-            "05. [Fail] Text Size2",
+            "05. Text Size",
+            "단순 TextSize 변경",
+            R.layout.motion_02_success_textsize
+        ),
+        DemosAdapter.Demo(
+            "06. [Fail] Text Size2",
             "AppbarLayout에서 TextSize 변경 ",
-            R.layout.motion_05_fail_textsize
+            R.layout.motion_03_fail_textsize
         ),
         DemosAdapter.Demo(
-            "06. Scale Text Size2",
+            "07. Scale Text Size2",
             "Scale로 대응한 AppbarLayout에서 TextSize 변경 ",
-            R.layout.motion_06_success_textsize
+            R.layout.motion_03_success_textsize
         ),
         DemosAdapter.Demo(
-            "07. [Fail] Text Change",
+            "08. [Fail] Text Change",
             "AppbarLayout Header 영역에서 Text Change",
-            R.layout.motion_07_fail_change_text
+            R.layout.motion_04_fail_change_text
         ),
         DemosAdapter.Demo(
-            "08. Text Change",
+            "09. Text Change",
             "AppbaLayout Header 영역에서 Text Change",
-            R.layout.motion_08_success_change_text
+            R.layout.motion_04_success_change_text
         )
     )
 

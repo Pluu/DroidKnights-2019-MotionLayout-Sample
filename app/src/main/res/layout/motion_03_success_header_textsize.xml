@@ -8,11 +8,11 @@
     android:background="@color/header_color"
     android:fitsSystemWindows="true"
     android:minHeight="@dimen/toolbar_size"
-    app:layoutDescription="@xml/scene_06_success_textsize"
+    app:layoutDescription="@xml/scene_03_success_textsize"
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
     app:motionDebug="SHOW_PATH"
     tools:progress="1.0f"
-    tools:showIn="@layout/motion_06_success_textsize">
+    tools:showIn="@layout/motion_03_success_textsize">
 
     <View
         android:id="@+id/guideBottom"
