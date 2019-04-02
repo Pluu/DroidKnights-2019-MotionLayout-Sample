@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         ),
         DemosAdapter.Demo(
             "05. Text Size",
-            "단순 TextSize 변경",
+            "autoSizeTextType uniform으로  TextSize 변경",
             R.layout.motion_02_success_textsize
         ),
         DemosAdapter.Demo(
