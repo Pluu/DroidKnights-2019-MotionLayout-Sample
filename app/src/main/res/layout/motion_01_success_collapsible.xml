@@ -11,6 +11,6 @@
 
     <include layout="@layout/motion_01_success_header_collapsible_toolbar" />
 
-    <include layout="@layout/content_scrolling" />
+    <include layout="@layout/content_recyclerview" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

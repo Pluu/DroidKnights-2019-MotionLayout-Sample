@@ -5,6 +5,8 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
+import androidx.recyclerview.widget.RecyclerView
+import com.example.droidknightssample.dummy.DummyContent
 import kotlin.random.Random
 
 class DemoActivity : AppCompatActivity() {
@@ -13,8 +15,10 @@ class DemoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val layout =
-            intent.getIntExtra("layout_file_id", R.layout.motion_01_fail_1_header_collapsible_toolbar)
+        val layout = intent.getIntExtra(
+            "layout_file_id",
+            R.layout.motion_01_fail_1_header_collapsible_toolbar
+        )
         setContentView(layout)
         container = findViewById(R.id.motionLayout)
 
@@ -25,6 +29,10 @@ class DemoActivity : AppCompatActivity() {
             R.layout.motion_04_success_change_text -> {
                 actionMotion04ChangeText()
             }
+        }
+
+        findViewById<RecyclerView>(R.id.recycler_view)?.apply {
+            adapter = DemoItemRecyclerViewAdapter(DummyContent.ITEMS)
         }
     }
 
