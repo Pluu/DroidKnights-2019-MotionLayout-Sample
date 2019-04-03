@@ -16,13 +16,18 @@ class MainActivity : AppCompatActivity() {
         ),
         DemosAdapter.Demo(
             "02. [Fail] CollapsibleToolbar",
-            "Sample",
+            "Complex AppbarLayout + NestedScrollView",
             R.layout.motion_01_fail_2_collapsible
         ),
         DemosAdapter.Demo(
             "03. CollapsibleToolbar",
-            "Complex MotionLayout Sample",
+            "Complex MotionLayout",
             R.layout.motion_01_success_collapsible
+        ),
+        DemosAdapter.Demo(
+            "03-2. CollapsibleToolbar",
+            "Complex AppbarLayout + RecyclerView",
+            R.layout.motion_01_success_2_collapsible
         ),
         DemosAdapter.Demo(
             "04. [Fail] Text Size",
